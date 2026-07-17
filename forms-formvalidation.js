@@ -9,9 +9,9 @@ let form=document.querySelector("form");
 form.addEventListener("submit",(evnt)=>{
    
       console.dir(nm);
-    evnt.preventDefault();
+   
 
-
+//this whole is used for tex vallidattion 
     if(nm.value.length <=2 ){
         document.querySelector("#hide").style.display="initial"
         
@@ -21,6 +21,14 @@ form.addEventListener("submit",(evnt)=>{
          
 
     }
+});
+
+form.addEventListener("submit",(evnt)=>{
+    evnt.preventDefault();
+   const Regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+   let ans = Regex.test("");
+   console.log(ans)
 
 
 })
