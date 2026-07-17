@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <form id="loginForm">
+
+        <h2>Login</h2>
+
+        <input
+            type="text"
+            id="email"
+            placeholder="Enter your Email"
+        >
+
+        <small id="emailError">Invalid Email</small>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter your Password"
+        >
+
+        <small id="passwordError">
+            Password must be at least 8 characters
+        </small>
+
+        <button type="submit">Login</button>
+
+    </form>
+    <div id="resultmsg">
+        
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
