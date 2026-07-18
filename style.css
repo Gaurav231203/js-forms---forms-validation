@@ -52,12 +52,19 @@ button:hover{
     background:#1d4ed8;
 }
 
-small{
+#emailError{
     display:none;
     color:red;
     font-size:13px;
     margin-top:5px;
 }
+#passwordError{
+    display:none;
+    color:red;
+    font-size:13px;
+    margin-top:5px;
+}
+
 #resultmsg{
     color: red;
     margin-top: 20px;
