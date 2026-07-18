@@ -42,6 +42,5 @@ form.addEventListener("submit", (dets)=>{//event chlaya form prr
    
    //no output in console
 
-   
 
-})
+});
